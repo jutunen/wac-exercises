@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.mainCont {
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.appCont {
+  width: 900px;
+  height: 460px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menuCont {
+  width: 900px;
+  height: 70px;
+  background-color: white;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: lightblue;
+}
+
+.balance, .requestDetail {
+  border: 2px solid gray;
+  height: 32px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+}
+
+.requestDetail {
+  display: inline-flex;
+  background-color: #efefef;
+}
+
+.depositCont {
+  width: 900px;
+  height: 390px;
+  background-color: cyan;
+  background-color: lightblue;
+}
+
+.rightMargin20px {
+  margin-right: 20px;
+}
+
+.leftMargin10px {
+  margin-left: 10px;
+}
+
+.width100px {
+  width: 100px;
+}
+
+.width160px {
+  width: 160px;
+}
+
+.floatright {
+  margin-left: auto;
+}
+
+.depositSubCont {
+  margin: 100px auto 0 auto;
+  width: 600px;
+  height: 80px;
+}
+
+.transferSubCont {
+  margin: 80px auto 0 auto;
+  width: 600px;
+  height: 240px;
+}
+
+.requestSubCont {
+  margin: 40px auto 0 auto;
+  width: 800px;
+  height: 120px;
+}
+
+.depositSubSubCont, .requestSubSubCont {
+  width: 600px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.pendingRequestsCont {
+  width: 660px;
+  height: 230px;
+  display: flex;
+  align-items: flex-start;
+  margin-left:130px;
+  margin-top:10px;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.requestDetailsCont {
+  margin: 5px 0px;
+  width: 640px;
+  display: flex;
+  align-items: center;
+}
+
+.requestSubSubCont {
+  margin-left:130px;
+}
+
+.loremCont {
+  width: 320px;
+  height: 300px;
+  background-color: #6fa8dc;
+  border-radius: 40px;
+  padding: 20px;
+  color: #595959;
+  box-sizing: border-box;
+}
+
+.authCont {
+  width: 280px;
+  height: 300px;
+  background-color: #6fa8dc;
+  border-radius: 40px;
+}
+
+.buttonsCont {
+  width: 280px;
+  height:80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button, .selectedButton {
+  color: #ab547e;
+  background-color: #ead1dc;
+  font-size: 24px;
+  border: 2px solid gray;
+  height: 32px;
+}
+
+.selectedButton {
+  color: #ead1dc;
+  background-color: #ab547e;
+  font-weight: bold;
+}
+
+.authFormCont {
+  width: 280px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.heading {
+  width: 900px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+  font-weight: bold;
+}
