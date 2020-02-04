@@ -1,0 +1,40 @@
+.main{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:auto;
+  width:400px;
+}
+
+.form{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formField{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2px 0;
+}
+
+.summary {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  margin: 5px 5px 5px 40px;
+}
+
+.summaryLine {
+  margin: 2px 0;
+}
+
+button {
+  margin: 10px 0;
+}
+
+.switchBtn {
+  width:200px;
+}
